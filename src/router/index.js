@@ -7,10 +7,11 @@ const Category = () => import('views/category/Category')
 const Profile = () => import('views/profile/Profile')
 const Cart = () => import('views/cart/Cart')
 
+
 //安装插件
 Vue.use(VueRouter)
 
-const routers = [
+const routes = [
   {
     path:'',
     redirect:'/home'
@@ -34,8 +35,9 @@ const routers = [
 ]
 //创建
 const router = new VueRouter({
-  routers,
-  mode:'history'
+  routes,
+  mode:'history',
+  base:process.env.BASE_URL
 })
 
 //导出

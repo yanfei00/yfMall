@@ -43,13 +43,13 @@
   .tabbar-item {
     flex: 1;
     font-size: 12px;
-    height: 59px;
+    height: 49px;
     text-align: center;
   }
   .tabbar-item img {
     width: 24px;
     height: 24px;
-    margin: 8px 0 6px 0;
+    margin: 5px 0 2px 0;
     vertical-align: middle;
   }
 

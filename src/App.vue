@@ -9,7 +9,7 @@
   import MainTabBar from 'components/content/MainTabBar'
 
   export default {
-    name: 'app',
+    name: 'App',
     components: {
         MainTabBar
     }
